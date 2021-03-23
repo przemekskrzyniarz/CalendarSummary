@@ -1,0 +1,37 @@
+.container {
+	max-width: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size: 2rem;
+}
+
+.table {
+	width:100%;
+	border:1px solid #EEEEEE;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background:#000;
+	padding:1.8rem 0;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	padding:1.8rem 0;
+}
+
+.table-data, .header__item {
+	flex: 1 1 20%;
+	text-align:center;
+}
+
+.header__item {
+	color:white;
+	text-transform:uppercase;
+}
